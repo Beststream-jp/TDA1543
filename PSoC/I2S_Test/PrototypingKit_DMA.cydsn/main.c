@@ -24,8 +24,7 @@
 uint8 DMA_1_Chan;
 uint8 DMA_1_TD[1];
 
-uint8 sawTable[TABLE_LENGTH];
-uint8 sineTable[TABLE_LENGTH];
+int8 sineTable[TABLE_LENGTH];
 
 const uint8 sineTable8[TABLE_LENGTH/2] = 
 {
@@ -50,16 +49,10 @@ const uint8 sineTable8[TABLE_LENGTH/2] =
 int main()
 {
     int i;
-    
-    // 16bit sawTableの生成
-    for (i = 0; i < TABLE_LENGTH; i += 2) {
-        sawTable[i]   = i * (0x100 / TABLE_LENGTH);
-        sawTable[i+1] = 0;
-    }
-    
+
     // 16bit sineTableの生成
     for (i = 0; i < TABLE_LENGTH / 2; i++) {
-        sineTable[i * 2]     = sineTable8[i];
+        sineTable[i * 2]     = (int)sineTable8[i] - 128;
         sineTable[i * 2 + 1] = 0;
     }
     
