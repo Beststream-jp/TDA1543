@@ -13,11 +13,80 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="I2S_Test\PrototypingKit_DMA\Source Files\main.c">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="I2S_Test\PrototypingKit_DDS\Header Files\wavetable.h">
 <ExpandedNodeIds>
 <v>I2S_Test</v>
 <v>I2S_Test\CQ_PMB_DMA</v>
 <v>I2S_Test\CQ_PMB_DMA\TopDesign</v>
+<v>I2S_Test\PrototypingKit_DDS</v>
+<v>I2S_Test\PrototypingKit_DDS\TopDesign</v>
+<v>I2S_Test\PrototypingKit_DDS\PrototypingKit_DDS.cydwr</v>
+<v>I2S_Test\PrototypingKit_DDS\Header Files</v>
+<v>I2S_Test\PrototypingKit_DDS\Header Files\cyapicallbacks.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Header Files\wavetable.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Source Files</v>
+<v>I2S_Test\PrototypingKit_DDS\Source Files\main.c</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\Clock_1</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\Clock_1\Clock_1.c</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\Clock_1\Clock_1.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\cm3gcc.ld</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\Cm3Iar.icf</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\Cm3RealView.scat</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\Cm3Start.c</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\core_cm3.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\core_cm3_psoc5.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\core_cmFunc.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\core_cmInstr.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\CyBootAsmGnu.s</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\CyBootAsmIar.s</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\CyBootAsmRv.s</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\CyDmac.c</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\CyDmac.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\CyFlash.c</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\CyFlash.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\CyLib.c</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\CyLib.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\cypins.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\cyPm.c</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\cyPm.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\CySpc.c</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\CySpc.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\cytypes.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\cyutils.c</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\I2S_1</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\I2S_1\I2S_1.c</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\I2S_1\I2S_1.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\I2S_1\I2S_1_PM.c</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\I2S_1\I2S_1_PVT.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\ISR_I2S_1_TX</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\ISR_I2S_1_TX\ISR_I2S_1_TX.c</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\ISR_I2S_1_TX\ISR_I2S_1_TX.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\Pin_Check</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\Pin_Check\Pin_Check.c</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\Pin_Check\Pin_Check.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\Pin_Check\Pin_Check_aliases.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cycodeshareimport.ld</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cycodeshareimport.scat</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cydevice.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cydevice_trm.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cydevicegnu.inc</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cydeviceiar.inc</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cydeviceiar_trm.inc</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cydevicerv.inc</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cydevicerv_trm.inc</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cydisabledsheets.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cyfitter.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cyfitter_cfg.c</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cyfitter_cfg.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cyfittergnu.inc</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cyfitteriar.inc</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cyfitterrv.inc</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cymetadata.c</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\project.h</v>
 <v>I2S_Test\PrototypingKit_DMA</v>
 <v>I2S_Test\PrototypingKit_DMA\TopDesign</v>
 <v>I2S_Test\PrototypingKit_DMA\Source Files</v>
@@ -30,13 +99,46 @@
 <v>I2S_Test\CQ_PMB_DMA\Header Files</v>
 <v>I2S_Test\CQ_PMB_DMA\Source Files</v>
 <v>I2S_Test\CQ_PMB_DMA\Generated_Source</v>
-<v>I2S_Test\PrototypingKit_DMA</v>
-<v>I2S_Test\PrototypingKit_DMA\TopDesign</v>
-<v>I2S_Test\PrototypingKit_DMA\PrototypingKit_DMA.cydwr</v>
-<v>I2S_Test\PrototypingKit_DMA\Header Files</v>
-<v>I2S_Test\PrototypingKit_DMA\Source Files</v>
-<v>I2S_Test\PrototypingKit_DMA\Source Files\main.c</v>
-<v>I2S_Test\PrototypingKit_DMA\Generated_Source</v>
+<v>I2S_Test\PrototypingKit_DDS</v>
+<v>I2S_Test\PrototypingKit_DDS\TopDesign</v>
+<v>I2S_Test\PrototypingKit_DDS\PrototypingKit_DDS.cydwr</v>
+<v>I2S_Test\PrototypingKit_DDS\Header Files</v>
+<v>I2S_Test\PrototypingKit_DDS\Header Files\cyapicallbacks.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Header Files\wavetable.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Source Files</v>
+<v>I2S_Test\PrototypingKit_DDS\Source Files\main.c</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\Clock_1</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\Clock_1\Clock_1.c</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\Clock_1\Clock_1.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\cm3gcc.ld</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\Cm3Iar.icf</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\Cm3RealView.scat</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\Cm3Start.c</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\core_cm3.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\core_cm3_psoc5.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\core_cmFunc.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\core_cmInstr.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\CyBootAsmGnu.s</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\CyBootAsmIar.s</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\CyBootAsmRv.s</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\CyDmac.c</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\CyDmac.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\CyFlash.c</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\CyFlash.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\CyLib.c</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\CyLib.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\cypins.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\cyPm.c</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\cyPm.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\CySpc.c</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\CySpc.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\cytypes.h</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\cy_boot\cyutils.c</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\I2S_1</v>
+<v>I2S_Test\PrototypingKit_DDS\Generated_Source\PSoC5\I2S_1\I2S_1.c</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -45,6 +147,9 @@
 <v>I2S_Test\CQ_PMB_DMA</v>
 <v>I2S_Test\CQ_PMB_DMA\TopDesign</v>
 <v>I2S_Test\CQ_PMB_DMA\TopDesign\TopDesign.cysch</v>
+<v>I2S_Test\PrototypingKit_DDS</v>
+<v>I2S_Test\PrototypingKit_DDS\TopDesign</v>
+<v>I2S_Test\PrototypingKit_DDS\TopDesign\TopDesign.cysch</v>
 <v>I2S_Test\PrototypingKit_DMA</v>
 <v>I2S_Test\PrototypingKit_DMA\TopDesign</v>
 <v>I2S_Test\PrototypingKit_DMA\TopDesign\TopDesign.cysch</v>
@@ -54,6 +159,9 @@
 <v>I2S_Test\CQ_PMB_DMA</v>
 <v>I2S_Test\CQ_PMB_DMA\TopDesign</v>
 <v>I2S_Test\CQ_PMB_DMA\TopDesign\TopDesign.cysch</v>
+<v>I2S_Test\PrototypingKit_DDS</v>
+<v>I2S_Test\PrototypingKit_DDS\TopDesign</v>
+<v>I2S_Test\PrototypingKit_DDS\TopDesign\TopDesign.cysch</v>
 <v>I2S_Test\PrototypingKit_DMA</v>
 <v>I2S_Test\PrototypingKit_DMA\TopDesign</v>
 <v>I2S_Test\PrototypingKit_DMA\TopDesign\TopDesign.cysch</v>
@@ -88,6 +196,33 @@
 <v>I2S_Test\CQ_PMB_DMA\CQ_PMB_DMA.gpdsc</v>
 <v>I2S_Test\CQ_PMB_DMA\CQ_PMB_DMA.rpt</v>
 <v>I2S_Test\CQ_PMB_DMA\CQ_PMB_DMA_timing.html</v>
+<v>I2S_Test\PrototypingKit_DDS</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\Clock_1.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\I2S_1.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\I2S_1_PM.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\ISR_I2S_1_TX.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\Pin_Check.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\PrototypingKit_DDS.elf</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\PrototypingKit_DDS.hex</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\PrototypingKit_DDS.map</v>
+<v>I2S_Test\PrototypingKit_DDS\PrototypingKit_DDS.gpdsc</v>
+<v>I2S_Test\PrototypingKit_DDS\PrototypingKit_DDS.rpt</v>
+<v>I2S_Test\PrototypingKit_DDS\PrototypingKit_DDS_timing.html</v>
 <v>I2S_Test\PrototypingKit_DMA</v>
 <v>I2S_Test\PrototypingKit_DMA\CortexM3</v>
 <v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493</v>
@@ -143,26 +278,26 @@
 <v>I2S_Test\CQ_PMB_DMA\CQ_PMB_DMA.gpdsc</v>
 <v>I2S_Test\CQ_PMB_DMA\CQ_PMB_DMA.rpt</v>
 <v>I2S_Test\CQ_PMB_DMA\CQ_PMB_DMA_timing.html</v>
-<v>I2S_Test\PrototypingKit_DMA</v>
-<v>I2S_Test\PrototypingKit_DMA\CortexM3</v>
-<v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493</v>
-<v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug</v>
-<v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files</v>
-<v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\Clock_1.lst</v>
-<v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
-<v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
-<v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
-<v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
-<v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
-<v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
-<v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
-<v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
-<v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\DMA_1_dma.lst</v>
-<v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\I2S_1.lst</v>
-<v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\I2S_1_PM.lst</v>
-<v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>I2S_Test\PrototypingKit_DDS</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\Clock_1.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\I2S_1.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\I2S_1_PM.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\ISR_I2S_1_TX.lst</v>
+<v>I2S_Test\PrototypingKit_DDS\CortexM3\ARM_GCC_493\Debug\Listing Files\main.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -183,6 +318,16 @@
 <v>I2S_Test\CQ_PMB_DMA\cy_pins_v2_10</v>
 <v>I2S_Test\CQ_PMB_DMA\cy_pins_v2_10\cy_pins_v2_10.pdf</v>
 <v>I2S_Test\CQ_PMB_DMA\I2S_v2_60.pdf</v>
+<v>I2S_Test\PrototypingKit_DDS</v>
+<v>I2S_Test\PrototypingKit_DDS\PSoC 5 Architecture TRM</v>
+<v>I2S_Test\PrototypingKit_DDS\CY8C58LP Family Datasheet</v>
+<v>I2S_Test\PrototypingKit_DDS\System Reference Guides</v>
+<v>I2S_Test\PrototypingKit_DDS\System Reference Guides\cy_boot_v5_20</v>
+<v>I2S_Test\PrototypingKit_DDS\cy_clock_v2_20.pdf</v>
+<v>I2S_Test\PrototypingKit_DDS\cy_isr_v1_70.pdf</v>
+<v>I2S_Test\PrototypingKit_DDS\cy_pins_v2_10</v>
+<v>I2S_Test\PrototypingKit_DDS\cy_pins_v2_10\cy_pins_v2_10.pdf</v>
+<v>I2S_Test\PrototypingKit_DDS\I2S_v2_60.pdf</v>
 <v>I2S_Test\PrototypingKit_DMA</v>
 <v>I2S_Test\PrototypingKit_DMA\PSoC 5 Architecture TRM</v>
 <v>I2S_Test\PrototypingKit_DMA\CY8C58LP Family Datasheet</v>
@@ -206,6 +351,16 @@
 <v>I2S_Test\CQ_PMB_DMA\cy_pins_v2_10</v>
 <v>I2S_Test\CQ_PMB_DMA\cy_pins_v2_10\cy_pins_v2_10.pdf</v>
 <v>I2S_Test\CQ_PMB_DMA\I2S_v2_60.pdf</v>
+<v>I2S_Test\PrototypingKit_DDS</v>
+<v>I2S_Test\PrototypingKit_DDS\PSoC 5 Architecture TRM</v>
+<v>I2S_Test\PrototypingKit_DDS\CY8C58LP Family Datasheet</v>
+<v>I2S_Test\PrototypingKit_DDS\System Reference Guides</v>
+<v>I2S_Test\PrototypingKit_DDS\System Reference Guides\cy_boot_v5_20</v>
+<v>I2S_Test\PrototypingKit_DDS\cy_clock_v2_20.pdf</v>
+<v>I2S_Test\PrototypingKit_DDS\cy_isr_v1_70.pdf</v>
+<v>I2S_Test\PrototypingKit_DDS\cy_pins_v2_10</v>
+<v>I2S_Test\PrototypingKit_DDS\cy_pins_v2_10\cy_pins_v2_10.pdf</v>
+<v>I2S_Test\PrototypingKit_DDS\I2S_v2_60.pdf</v>
 <v>I2S_Test\PrototypingKit_DMA</v>
 <v>I2S_Test\PrototypingKit_DMA\PSoC 5 Architecture TRM</v>
 <v>I2S_Test\PrototypingKit_DMA\CY8C58LP Family Datasheet</v>
@@ -233,6 +388,10 @@
 <name v=".\PrototypingKit_DMA.cydsn\TopDesign\TopDesign.cysch" />
 <name v=".\PrototypingKit_DMA.cydsn\PrototypingKit_DMA.cydwr" />
 <name v=".\PrototypingKit_DMA.cydsn\main.c" />
+<name v=".\PrototypingKit_DDS.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\PrototypingKit_DDS.cydsn\PrototypingKit_DDS.cydwr" />
+<name v=".\PrototypingKit_DDS.cydsn\main.c" />
+<name v=".\PrototypingKit_DDS.cydsn\wavetable.h" />
 </OpenDocs>
 <config v="" />
 <AutoUpdate v="true" />
