@@ -58,14 +58,12 @@ const uint8 sineTable8[TABLE_LENGTH] =
 
 CY_ISR (dma_0_done_handler)
 {
-    Pin_Check0_Write(1u);
-    Pin_Check0_Write(0u);
+    Pin_Check0_Write(Pin_Check0_Read() ? 0 : 1);
 }
 
 CY_ISR (dma_1_done_handler)
 {
-    Pin_Check1_Write(1u);
-    Pin_Check1_Write(0u);
+    Pin_Check1_Write(Pin_Check1_Read() ? 0 : 1);
 }
 
 int main()
@@ -77,8 +75,9 @@ int main()
         waveTable0[i*2]   = (int)sineTable8[i] - 128;
         waveTable0[i*2+1] = 0;
     }
+    // 符号付き16bit sawTableの生成
     for (i = 0; i < TABLE_LENGTH; i++) {
-        waveTable1[i*2]   = i;
+        waveTable1[i*2]   = i * 2 - 128;
         waveTable1[i*2+1] = 0;
     }
     
