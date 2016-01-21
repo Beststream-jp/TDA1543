@@ -94,13 +94,23 @@
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\DMA_0</v>
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\DMA_0\DMA_0_dma.c</v>
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\DMA_0\DMA_0_dma.h</v>
+<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\DMA_1</v>
+<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\DMA_1\DMA_1_dma.c</v>
+<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\DMA_1\DMA_1_dma.h</v>
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\ISR_DMA_0_Done</v>
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\ISR_DMA_0_Done\ISR_DMA_0_Done.c</v>
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\ISR_DMA_0_Done\ISR_DMA_0_Done.h</v>
+<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\ISR_DMA_1_Done</v>
+<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\ISR_DMA_1_Done\ISR_DMA_1_Done.c</v>
+<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\ISR_DMA_1_Done\ISR_DMA_1_Done.h</v>
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\Pin_Check0</v>
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\Pin_Check0\Pin_Check0.c</v>
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\Pin_Check0\Pin_Check0.h</v>
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\Pin_Check0\Pin_Check0_aliases.h</v>
+<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\Pin_Check1</v>
+<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\Pin_Check1\Pin_Check1.c</v>
+<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\Pin_Check1\Pin_Check1.h</v>
+<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\Pin_Check1\Pin_Check1_aliases.h</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>I2S_Test</v>
@@ -124,14 +134,24 @@
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\DMA_0</v>
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\DMA_0\DMA_0_dma.c</v>
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\DMA_0\DMA_0_dma.h</v>
+<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\DMA_1</v>
+<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\DMA_1\DMA_1_dma.c</v>
+<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\DMA_1\DMA_1_dma.h</v>
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\I2S_1</v>
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\ISR_DMA_0_Done</v>
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\ISR_DMA_0_Done\ISR_DMA_0_Done.c</v>
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\ISR_DMA_0_Done\ISR_DMA_0_Done.h</v>
+<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\ISR_DMA_1_Done</v>
+<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\ISR_DMA_1_Done\ISR_DMA_1_Done.c</v>
+<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\ISR_DMA_1_Done\ISR_DMA_1_Done.h</v>
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\Pin_Check0</v>
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\Pin_Check0\Pin_Check0.c</v>
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\Pin_Check0\Pin_Check0.h</v>
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\Pin_Check0\Pin_Check0_aliases.h</v>
+<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\Pin_Check1</v>
+<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\Pin_Check1\Pin_Check1.c</v>
+<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\Pin_Check1\Pin_Check1.h</v>
+<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\Pin_Check1\Pin_Check1_aliases.h</v>
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\cycodeshareimport.ld</v>
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\cycodeshareimport.scat</v>
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\cydevice.h</v>
@@ -140,16 +160,6 @@
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\cydeviceiar.inc</v>
 <v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\cydeviceiar_trm.inc</v>
-<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\cydevicerv.inc</v>
-<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\cydevicerv_trm.inc</v>
-<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\cydisabledsheets.h</v>
-<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\cyfitter.h</v>
-<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\cyfitter_cfg.c</v>
-<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\cyfitter_cfg.h</v>
-<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\cyfittergnu.inc</v>
-<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\cyfitteriar.inc</v>
-<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\cyfitterrv.inc</v>
-<v>I2S_Test\PrototypingKit_DMA\Generated_Source\PSoC5\cymetadata.c</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -251,11 +261,14 @@
 <v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
 <v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
 <v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\DMA_0_dma.lst</v>
+<v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\DMA_1_dma.lst</v>
 <v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\I2S_1.lst</v>
 <v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\I2S_1_PM.lst</v>
 <v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\ISR_DMA_0_Done.lst</v>
+<v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\ISR_DMA_1_Done.lst</v>
 <v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\main.lst</v>
 <v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\Pin_Check0.lst</v>
+<v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\Pin_Check1.lst</v>
 <v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\PrototypingKit_DMA.elf</v>
 <v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\PrototypingKit_DMA.hex</v>
 <v>I2S_Test\PrototypingKit_DMA\CortexM3\ARM_GCC_493\Debug\PrototypingKit_DMA.map</v>
@@ -347,8 +360,10 @@
 <v>I2S_Test\PrototypingKit_DMA\System Reference Guides</v>
 <v>I2S_Test\PrototypingKit_DMA\System Reference Guides\cy_boot_v5_20</v>
 <v>I2S_Test\PrototypingKit_DMA\cy_clock_v2_20.pdf</v>
-<v>I2S_Test\PrototypingKit_DMA\cy_dma_v1_70.pdf</v>
-<v>I2S_Test\PrototypingKit_DMA\cy_isr_v1_70.pdf</v>
+<v>I2S_Test\PrototypingKit_DMA\cy_dma_v1_70</v>
+<v>I2S_Test\PrototypingKit_DMA\cy_dma_v1_70\cy_dma_v1_70.pdf</v>
+<v>I2S_Test\PrototypingKit_DMA\cy_isr_v1_70</v>
+<v>I2S_Test\PrototypingKit_DMA\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
 <v>I2S_Test\PrototypingKit_DMA\cy_pins_v2_10</v>
 <v>I2S_Test\PrototypingKit_DMA\cy_pins_v2_10\cy_pins_v2_10.pdf</v>
 <v>I2S_Test\PrototypingKit_DMA\I2S_v2_60.pdf</v>
@@ -381,8 +396,10 @@
 <v>I2S_Test\PrototypingKit_DMA\System Reference Guides</v>
 <v>I2S_Test\PrototypingKit_DMA\System Reference Guides\cy_boot_v5_20</v>
 <v>I2S_Test\PrototypingKit_DMA\cy_clock_v2_20.pdf</v>
-<v>I2S_Test\PrototypingKit_DMA\cy_dma_v1_70.pdf</v>
-<v>I2S_Test\PrototypingKit_DMA\cy_isr_v1_70.pdf</v>
+<v>I2S_Test\PrototypingKit_DMA\cy_dma_v1_70</v>
+<v>I2S_Test\PrototypingKit_DMA\cy_dma_v1_70\cy_dma_v1_70.pdf</v>
+<v>I2S_Test\PrototypingKit_DMA\cy_isr_v1_70</v>
+<v>I2S_Test\PrototypingKit_DMA\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
 <v>I2S_Test\PrototypingKit_DMA\cy_pins_v2_10</v>
 <v>I2S_Test\PrototypingKit_DMA\cy_pins_v2_10\cy_pins_v2_10.pdf</v>
 <v>I2S_Test\PrototypingKit_DMA\I2S_v2_60.pdf</v>
