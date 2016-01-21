@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <blockRegMap version="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cypress.com/xsd/cyblockregmap cyblockregmap.xsd" xmlns="http://cypress.com/xsd/cyblockregmap">
-  <block name="DMA_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="ISR_DMA_0_Done" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="Clock_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="cy_boot" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="WS_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="Pin_Check0" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="DMA_0" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="SDO_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="I2S_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
     <block name="VirtualMux_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
     <block name="VirtualMux_6" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
@@ -60,6 +62,6 @@
       </field>
     </register>
   </block>
-  <block name="SDO_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="WS_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="SCK_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
 </blockRegMap>

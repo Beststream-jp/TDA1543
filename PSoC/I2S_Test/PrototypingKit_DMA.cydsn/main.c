@@ -13,19 +13,18 @@
 
 #define TABLE_LENGTH 128
 
-/* Defines for DMA_1 */
-#define DMA_1_BYTES_PER_BURST 1
-#define DMA_1_REQUEST_PER_BURST 1
-#define DMA_1_SRC_BASE (CYDEV_SRAM_BASE)
-#define DMA_1_DST_BASE (CYDEV_PERIPH_BASE)
+/* Defines for DMA_0 */
+#define DMA_0_BYTES_PER_BURST 1
+#define DMA_0_REQUEST_PER_BURST 1
+#define DMA_0_SRC_BASE (CYDEV_SRAM_BASE)
+#define DMA_0_DST_BASE (CYDEV_PERIPH_BASE)
 
-/* Variable declarations for DMA_1 */
+/* Variable declarations for DMA_0 */
 /* Move these variable declarations to the top of the function */
-uint8 DMA_1_Chan;
-uint8 DMA_1_TD[1];
+uint8 DMA_0_Chan;
+uint8 DMA_0_TD[1];
 
-
-int8 sineTable[TABLE_LENGTH*2];
+int8 waveTable[TABLE_LENGTH*2];
 
 const uint8 sineTable8[TABLE_LENGTH] = 
 {
@@ -47,30 +46,36 @@ const uint8 sineTable8[TABLE_LENGTH] =
 	 79,  85,  91,  97, 103, 109, 115, 122
 };	 
 
+CY_ISR (dma_0_done_handler)
+{
+    Pin_Check0_Write(1u);
+    Pin_Check0_Write(0u);
+}
+
 int main()
 {
     int i;
 
     // 符号付き16bit sineTableの生成
     for (i = 0; i < TABLE_LENGTH; i++) {
-        sineTable[i*2]   = (int)sineTable8[i] - 128;
-        sineTable[i*2+1] = 0;
+        waveTable[i*2]   = (int)sineTable8[i] - 128;
+        waveTable[i*2+1] = 0;
     }
     
     CyGlobalIntEnable; /* Enable global interrupts. */
-
-    /* Place your initialization/startup code here (e.g. MyInst_Start()) */
     
     I2S_1_Start();
+    
+    /* DMA Configuration for DMA_0 */
+    DMA_0_Chan = DMA_0_DmaInitialize(DMA_0_BYTES_PER_BURST, DMA_0_REQUEST_PER_BURST, 
+        HI16(DMA_0_SRC_BASE), HI16(DMA_0_DST_BASE));
+    DMA_0_TD[0] = CyDmaTdAllocate();
+    CyDmaTdSetConfiguration(DMA_0_TD[0], TABLE_LENGTH*2, DMA_0_TD[0], DMA_0__TD_TERMOUT_EN | TD_INC_SRC_ADR);
+    CyDmaTdSetAddress(DMA_0_TD[0], LO16((uint32)waveTable), LO16((uint32)I2S_1_TX_CH0_F0_PTR));
+    CyDmaChSetInitialTd(DMA_0_Chan, DMA_0_TD[0]);
+    CyDmaChEnable(DMA_0_Chan, 1);
 
-    /* DMA Configuration for DMA_1 */
-    DMA_1_Chan = DMA_1_DmaInitialize(DMA_1_BYTES_PER_BURST, DMA_1_REQUEST_PER_BURST, 
-        HI16(DMA_1_SRC_BASE), HI16(DMA_1_DST_BASE));
-    DMA_1_TD[0] = CyDmaTdAllocate();
-    CyDmaTdSetConfiguration(DMA_1_TD[0], (TABLE_LENGTH*2), DMA_1_TD[0], TD_INC_SRC_ADR);
-    CyDmaTdSetAddress(DMA_1_TD[0], LO16((uint32)sineTable), LO16((uint32)I2S_1_TX_CH0_F0_PTR));
-    CyDmaChSetInitialTd(DMA_1_Chan, DMA_1_TD[0]);
-    CyDmaChEnable(DMA_1_Chan, 1);
+    ISR_DMA_0_Done_StartEx(dma_0_done_handler);
 
     while(0u != (I2S_1_ReadTxStatus() & I2S_1_TX_FIFO_0_NOT_FULL))
     {
