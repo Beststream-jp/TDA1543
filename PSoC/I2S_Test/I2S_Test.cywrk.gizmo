@@ -384,9 +384,10 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\PrototypingKit_DMA.cydsn\main.c" />
-<name v=".\PrototypingKit_DMA.cydsn\TopDesign\TopDesign.cysch" />
-<name v=".\PrototypingKit_DMA.cydsn\PrototypingKit_DMA.cydwr" />
+<name v=".\PrototypingKit_DDS.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\PrototypingKit_DDS.cydsn\main.c" />
+<name v=".\PrototypingKit_DDS.cydsn\wavetable.h" />
+<name v=".\PrototypingKit_DDS.cydsn\PrototypingKit_DDS.cydwr" />
 </OpenDocs>
 <config v="" />
 <AutoUpdate v="true" />
