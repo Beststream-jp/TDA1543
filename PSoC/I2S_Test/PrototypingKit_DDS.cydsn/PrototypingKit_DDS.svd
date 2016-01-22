@@ -19,7 +19,7 @@
         <register>
           <name>TX_STATUS_0_REG</name>
           <description>No description available</description>
-          <addressOffset>0x4000646D</addressOffset>
+          <addressOffset>0x4000646F</addressOffset>
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>

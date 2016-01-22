@@ -127,7 +127,7 @@ int main()
         HI16(DMA_1_SRC_BASE), HI16(DMA_1_DST_BASE));
     DMA_1_TD[0] = CyDmaTdAllocate();
     CyDmaTdSetConfiguration(DMA_1_TD[0], TABLE_LENGTH*2, DMA_1_TD[0], DMA_1__TD_TERMOUT_EN | TD_INC_SRC_ADR);
-    CyDmaTdSetAddress(DMA_1_TD[0], LO16((uint32)waveTable1), LO16((uint32)I2S_1_TX_CH0_F1_PTR));
+    CyDmaTdSetAddress(DMA_1_TD[0], LO16((uint32)waveTable0), LO16((uint32)I2S_1_TX_CH0_F1_PTR));
     CyDmaChSetInitialTd(DMA_1_Chan, DMA_1_TD[0]);
     CyDmaChEnable(DMA_1_Chan, 1);
 

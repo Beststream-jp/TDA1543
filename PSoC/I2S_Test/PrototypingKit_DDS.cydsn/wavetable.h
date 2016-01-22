@@ -1,6 +1,6 @@
 /*
  * 16bit singned int wave table
- *
+ * 1024 length
  */
 
 #ifndef _WAVETABLE_H_
