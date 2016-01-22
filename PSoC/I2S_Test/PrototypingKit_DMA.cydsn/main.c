@@ -56,34 +56,62 @@ const uint8 sineTable8[TABLE_LENGTH] =
 	 79,  85,  91,  97, 103, 109, 115, 122
 };	 
 
-CY_ISR (dma_0_done_handler)
-{
-    Pin_Check0_Write(Pin_Check0_Read() ? 0 : 1);
-}
-
-CY_ISR (dma_1_done_handler)
-{
-    Pin_Check1_Write(Pin_Check1_Read() ? 0 : 1);
-}
-
-int main()
+void genSineTable(void* buff)
 {
     int i;
 
     // 符号付き16bit sineTableの生成
     for (i = 0; i < TABLE_LENGTH; i++) {
-        waveTable0[i*2]   = (int)sineTable8[i] - 128;
-        waveTable0[i*2+1] = 0;
+        ((int8 *)buff)[i*2]   = (int)sineTable8[i] - 128;
+        ((int8 *)buff)[i*2+1] = 0;
     }
+}
+
+void genSawTable(void* buff)
+{
+    int i;
+    
     // 符号付き16bit sawTableの生成
     for (i = 0; i < TABLE_LENGTH; i++) {
-        waveTable1[i*2]   = i * 2 - 128;
-        waveTable1[i*2+1] = 0;
+        ((int8 *)buff)[i*2]   = i * 2 - 128;
+        ((int8 *)buff)[i*2+1] = 0;
     }
-    
+}
+
+CY_ISR (dma_0_done_handler)
+{
+    Pin_Check1_Write(1u);
+    if (1u == Pin_Check0_Read()) {
+        Pin_Check0_Write(0u);
+        genSawTable(waveTable0);
+    } else {
+        Pin_Check0_Write(1u);
+        genSineTable(waveTable0);
+    }
+    Pin_Check1_Write(0u);
+}
+
+CY_ISR (dma_1_done_handler)
+{
+    /*
+    if (1u == Pin_Check1_Read()) {
+        Pin_Check1_Write(0u);
+        //genSineTable(waveTable1);
+    } else {
+        Pin_Check1_Write(1u);
+        //genSawTable(waveTable1);
+    }
+    */
+}
+
+int main()
+{
     CyGlobalIntEnable; /* Enable global interrupts. */
     
     I2S_1_Start();
+    
+    genSineTable(waveTable0);
+    genSawTable(waveTable1);
     
     /* DMA Configuration for DMA_0 */
     DMA_0_Chan = DMA_0_DmaInitialize(DMA_0_BYTES_PER_BURST, DMA_0_REQUEST_PER_BURST, 
