@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Source Files\main.c">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="I2S_Test\PrototypingKit_Realtime_Table_Gen\Source Files\main.c">
 <ExpandedNodeIds>
 <v>I2S_Test</v>
 <v>I2S_Test\CQ_PMB_DMA\TopDesign</v>
@@ -211,7 +211,6 @@
 <v>I2S_Test\PrototypingKit_Realtime_Table_Gen\Generated_Source\PSoC5\cyfitterrv.inc</v>
 <v>I2S_Test\PrototypingKit_Realtime_Table_Gen\Generated_Source\PSoC5\cymetadata.c</v>
 <v>I2S_Test\PrototypingKit_Realtime_Table_Gen\Generated_Source\PSoC5\project.h</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0</v>
 <v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\TopDesign</v>
 <v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\PrototypingKit_Realtime_Table_Gen_0.cydwr</v>
 <v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Header Files</v>
@@ -339,40 +338,7 @@
 <v>I2S_Test\PrototypingKit_Ext_Xtal</v>
 <v>I2S_Test\PrototypingKit_Realtime_Table_Gen</v>
 <v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\TopDesign</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\PrototypingKit_Realtime_Table_Gen_0.cydwr</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Header Files</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Header Files\cyapicallbacks.h</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Source Files</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Source Files\main.c</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot\cm3gcc.ld</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot\Cm3Iar.icf</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot\Cm3RealView.scat</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot\Cm3Start.c</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot\core_cm3.h</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot\core_cm3_psoc5.h</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot\core_cmFunc.h</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot\core_cmInstr.h</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot\CyBootAsmGnu.s</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot\CyBootAsmIar.s</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot\CyBootAsmRv.s</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot\CyDmac.c</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot\CyDmac.h</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot\CyFlash.c</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot\CyFlash.h</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot\CyLib.c</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot\CyLib.h</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot\cypins.h</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot\cyPm.c</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot\cyPm.h</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot\CySpc.c</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot\CySpc.h</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot\cytypes.h</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\cy_boot\cyutils.c</v>
-<v>I2S_Test\PrototypingKit_Realtime_Table_Gen_0\Generated_Source\PSoC5\Pin_Check_0</v>
+<v>I2S_Test\sin_test</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -943,10 +909,9 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\PrototypingKit_Realtime_Table_Gen.cydsn\main.c" />
-<name v=".\PrototypingKit_Realtime_Table_Gen.cydsn\PrototypingKit_Realtime_Table_Gen.cydwr" />
-<name v=".\PrototypingKit_DMA.cydsn\main.c" />
 <name v=".\PrototypingKit_Realtime_Table_Gen.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\PrototypingKit_Realtime_Table_Gen.cydsn\PrototypingKit_Realtime_Table_Gen.cydwr" />
+<name v=".\PrototypingKit_Realtime_Table_Gen.cydsn\main.c" />
 </OpenDocs>
 <config v="Release" />
 <AutoUpdate v="true" />

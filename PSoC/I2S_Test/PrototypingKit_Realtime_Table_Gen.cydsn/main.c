@@ -124,7 +124,7 @@ int main()
     
     tableIndex_0 = 0;
     tableIndex_1 = 0;
-#if 0    
+  
     genSineTable(waveTable_0, TABLE_LENGTH);
     genSawTable(waveTable_1, TABLE_LENGTH);
     
@@ -162,9 +162,6 @@ int main()
     CyDelay(1);
 
     I2S_1_EnableTx();
-#endif    
-
-    /* Place your initialization/startup code here (e.g. MyInst_Start()) */
 
     for(;;)
     {
