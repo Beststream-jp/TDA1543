@@ -47,7 +47,7 @@ volatile uint32 tuningWord_0;
 volatile uint32 phaseRegister_0 = 0;
 //volatile uint32 phaseRegister_1 = 0;
 
-void setDDSParameter_0(uint16 frequency)
+void setDDSParameter_0(uint32 frequency)
 {
     tuningWord_0 = (((uint64)frequency << 32) / SAMPLE_CLOCK);
 }
@@ -116,7 +116,7 @@ CY_ISR (i2s_1_tx_handler)
 
 int main()
 {
-    setDDSParameter_0(10000);
+    setDDSParameter_0(1000);
     //setDDSParameter_1(1000);
     generateWave_0();
     //generateWave_1();

@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="I2S_Test\PrototypingKit_DDS\Source Files\main.c">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="I2S_Test\PrototypingKit_DDS">
 <ExpandedNodeIds>
 <v>I2S_Test</v>
 <v>I2S_Test\CQ_PMB_DMA\TopDesign</v>
@@ -761,49 +761,6 @@
 <VisibleNodeIds>
 <v>I2S_Test</v>
 <v>I2S_Test\CQ_PMB_DMA</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Debug</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\Clock_1.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\DMA_1_dma.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\I2S_1.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\I2S_1_PM.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Debug\Listing Files\main.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Debug\CQ_PMB_DMA.elf</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Debug\CQ_PMB_DMA.hex</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Debug\CQ_PMB_DMA.map</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Release</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Release\Listing Files</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Release\Listing Files\Clock_1.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Release\Listing Files\Cm3Start.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Release\Listing Files\CyBootAsmGnu.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Release\Listing Files\CyDmac.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Release\Listing Files\cyfitter_cfg.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Release\Listing Files\CyFlash.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Release\Listing Files\CyLib.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Release\Listing Files\cymetadata.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Release\Listing Files\cyPm.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Release\Listing Files\CySpc.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Release\Listing Files\cyutils.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Release\Listing Files\DMA_1_dma.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Release\Listing Files\I2S_1.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Release\Listing Files\I2S_1_PM.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Release\Listing Files\main.lst</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Release\CQ_PMB_DMA.elf</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Release\CQ_PMB_DMA.hex</v>
-<v>I2S_Test\CQ_PMB_DMA\CortexM3\ARM_GCC_493\Release\CQ_PMB_DMA.map</v>
-<v>I2S_Test\CQ_PMB_DMA\CQ_PMB_DMA.gpdsc</v>
 <v>I2S_Test\CQ_PMB_DMA\CQ_PMB_DMA.rpt</v>
 <v>I2S_Test\CQ_PMB_DMA\CQ_PMB_DMA_timing.html</v>
 </VisibleNodeIds>
