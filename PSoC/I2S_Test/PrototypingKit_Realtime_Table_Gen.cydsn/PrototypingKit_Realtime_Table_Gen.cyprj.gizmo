@@ -648,6 +648,29 @@
 <file name=".\Generated_Source\PSoC5\cydevicegnu.inc" />
 <file name=".\Generated_Source\PSoC5\cydevicegnu_trm.inc" />
 <file name=".\Generated_Source\PSoC5\cyfittergnu.inc" />
+<file name=".\Generated_Source\PSoC5\Clock_2.h" />
+<file name=".\Generated_Source\PSoC5\Pin_Master_Clock.h" />
+<file name=".\Generated_Source\PSoC5\Pin_Master_Clock_aliases.h" />
+<file name=".\CortexM3\ARM_GCC_493\Release\Clock_2.o">
+<dep name=".\Generated_Source\PSoC5\Clock_2.c" />
+<dep name=".\Generated_Source\PSoC5\Clock_2.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC5\Clock_2.c" />
+<file name=".\CortexM3\ARM_GCC_493\Release\Pin_Master_Clock.o">
+<dep name=".\Generated_Source\PSoC5\Pin_Master_Clock.c" />
+<dep name=".\Generated_Source\PSoC5\Pin_Master_Clock.h" />
+<dep name=".\Generated_Source\PSoC5\Pin_Master_Clock_aliases.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice.h" />
+<dep name=".\Generated_Source\PSoC5\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC5\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC5\cypins.h" />
+<dep name=".\Generated_Source\PSoC5\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC5\Pin_Master_Clock.c" />
 </CyGuid_1173175f-1b9b-4ad4-a065-754a48a27021>
 </dependency_info>
 </CyGuid_f44455c5-3770-4452-b988-0a7a7ff46256>
@@ -767,6 +790,8 @@
 <name_val_pair name=".\Generated_Source\PSoC5\Pin_Check_0.c" v="-mcpu=cortex-m3 -mthumb -Wno-main -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Os -ffat-lto-objects" />
 <name_val_pair name=".\Generated_Source\PSoC5\Pin_Check_1.c" v="-mcpu=cortex-m3 -mthumb -Wno-main -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Os -ffat-lto-objects" />
 <name_val_pair name="D:\Users\gizmo\Documents\Develop\TDA1543\PSoC\I2S_Test\PrototypingKit_Realtime_Table_Gen.cydsn\CortexM3\ARM_GCC_493\Release\PrototypingKit_Realtime_Table_Gen.hex" v="-mcpu=cortex-m3 -mthumb -g -ffunction-sections -Os -L Generated_Source\PSoC5 -Wl,-Map,${OutputDir}/${ProjectShortName}.map -T Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -Wl,--gc-sections -lm" />
+<name_val_pair name=".\Generated_Source\PSoC5\Pin_Master_Clock.c" v="-mcpu=cortex-m3 -mthumb -Wno-main -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Os -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC5\Clock_2.c" v="-mcpu=cortex-m3 -mthumb -Wno-main -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Os -ffat-lto-objects" />
 </name>
 </genericCmdLineData>
 <codeGenCmdLineTag v="-.appdatapath &quot;C:\Users\gizmo\AppData\Local\Cypress Semiconductor\PSoC Creator\3.3&quot; -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p D:\Users\gizmo\Documents\Develop\TDA1543\PSoC\I2S_Test\PrototypingKit_Realtime_Table_Gen.cydsn\PrototypingKit_Realtime_Table_Gen.cyprj -d CY8C5888LTI-LP097 -s D:\Users\gizmo\Documents\Develop\TDA1543\PSoC\I2S_Test\PrototypingKit_Realtime_Table_Gen.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE" />
@@ -1248,6 +1273,11 @@
 <v>.\Generated_Source\PSoC5\Pin_Check_1_aliases.h</v>
 <v>.\Generated_Source\PSoC5\Pin_Check_1.c</v>
 <v>.\Generated_Source\PSoC5\Pin_Check_1.h</v>
+<v>.\Generated_Source\PSoC5\Pin_Master_Clock_aliases.h</v>
+<v>.\Generated_Source\PSoC5\Pin_Master_Clock.c</v>
+<v>.\Generated_Source\PSoC5\Pin_Master_Clock.h</v>
+<v>.\Generated_Source\PSoC5\Clock_2.c</v>
+<v>.\Generated_Source\PSoC5\Clock_2.h</v>
 </gen_list>
 <warp_dep>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\ieee\work\stdlogic.vif</v>
@@ -1257,14 +1287,14 @@
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif</v>
 </warp_dep>
-<deps_time v="130980994520638400" />
+<deps_time v="130981012185076473" />
 <top_block v="TopDesign" />
 <last_generation v="0" />
 </CyGuid_925cc1e1-309e-4e08-b0a1-09a83c35b157>
 </dataGuid>
 <dataGuid v="769d31ea-68b1-4f0c-b90a-7c10a43ee563">
 <CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563 type_name="CyDesigner.Common.ProjMgmt.Model.CyLinkCustomData" version="1">
-<deps_time v="130980995304894148" />
+<deps_time v="130981012232158604" />
 </CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563>
 </dataGuid>
 </userData>

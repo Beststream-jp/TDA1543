@@ -14,7 +14,7 @@
 #include <project.h>
 #include "wavetable.h"
 
-#define SAMPLE_CLOCK    187500u
+#define SAMPLE_CLOCK    279658u
 
 #define TABLE_SIZE      1024
 #define BUFFER_SIZE     32     

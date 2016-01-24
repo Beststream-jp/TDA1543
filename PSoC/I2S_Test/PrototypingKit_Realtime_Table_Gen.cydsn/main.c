@@ -12,7 +12,7 @@
 #include <project.h>
 #include <math.h>
 
-#define TABLE_LENGTH    4096
+#define TABLE_LENGTH    560
 #define BUFFER_LENGTH   32
 
 /* Defines for DMA_0 */
@@ -166,10 +166,12 @@ int main()
     for(;;)
     {
         /* Place your application code here. */
+        /*
         Pin_Check_0_Write(1u);
         genSineTable(waveTable_0, TABLE_LENGTH);
         Pin_Check_0_Write(0u);
         CyDelay(1);
+        */
     }
 }
 
