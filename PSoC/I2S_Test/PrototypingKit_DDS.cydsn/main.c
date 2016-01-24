@@ -7,6 +7,7 @@
  * CONFIDENTIAL AND PROPRIETARY INFORMATION
  * WHICH IS THE PROPERTY OF your company.
  *
+ * 2016.01.24 ロータリーエンコーダーで周波数選択
  * 2016.01.22 正弦波を出力
  *
  * ========================================
@@ -17,7 +18,7 @@
 #define SAMPLE_CLOCK    279658u
 
 #define TABLE_SIZE      1024
-#define BUFFER_SIZE     32     
+#define BUFFER_SIZE     4     
 
 /* Defines for DMA_0 */
 #define DMA_0_BYTES_PER_BURST 1
@@ -46,6 +47,18 @@ volatile uint32 tuningWord_0;
 //volatile uint32 tuningWord_1;
 volatile uint32 phaseRegister_0 = 0;
 //volatile uint32 phaseRegister_1 = 0;
+
+const uint32 frequencyMajTable[] = {
+    1, 2, 5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000, 
+    10000, 20000, 50000, 100000
+};
+const int16 frequencyMnrStep[] = {
+    1, 1, 1,  1,  2,  5,  10,  20,  50,  100,  200,  500,
+    1000,   2000,  5000,  10000
+};
+#define FREQUENCY_MAJ_INDEX_INIT    9
+#define FREQUENCY_TABLE_LENGTH \
+    ((int)(sizeof(frequencyMajTable)/sizeof(frequencyMajTable[1])))
 
 void setDDSParameter_0(uint32 frequency)
 {
@@ -114,9 +127,61 @@ CY_ISR (i2s_1_tx_handler)
     }
 }
 
+//-------------------------------------------------------------
+// Rotary Encoder
+//
+//-------------------------------------------------------------
+//-------------------------------------------------
+// ロータリーエンコーダの読み取り
+// return: ロータリーエンコーダーの回転方向
+//         0:変化なし 1:時計回り -1:反時計回り
+//
+int readRE(int RE_n)
+{
+    static uint8_t index[3];
+    uint8_t rd = 0;
+    int retval = 0;
+    
+    switch (RE_n) {
+    case 0:
+        rd = Pin_RE0_Read();
+        break;
+    case 1:
+        rd = Pin_RE1_Read();
+        break;
+    case 2:
+        //rd = Pin_RE2_Read();
+        break;
+    default:
+        //error(ERR_RE_OUT_OF_BOUNDS, RE_n);
+        ;
+    }
+
+    index[RE_n] = (index[RE_n] << 2) | rd;
+	index[RE_n] &= 0b1111;
+
+	switch (index[RE_n]) {
+	// 時計回り
+	case 0b0001:	// 00 -> 01
+	case 0b1110:	// 11 -> 10
+	    retval = 1;
+	    break;
+	// 反時計回り
+	case 0b0010:	// 00 -> 10
+	case 0b1101:	// 11 -> 01
+	    retval = -1;
+	    break;
+    }
+    return retval;
+}
+
 int main()
 {
-    setDDSParameter_0(1000);
+    int16 frequencyMajIndex = FREQUENCY_MAJ_INDEX_INIT;
+    int32 frequency = 1000;
+    int re_val;
+    
+    setDDSParameter_0(frequency);
     //setDDSParameter_1(1000);
     generateWave_0();
     //generateWave_1();
@@ -157,7 +222,22 @@ int main()
     
     for(;;)
     {
-        //writeDataToI2S();
+        re_val = readRE(0);
+        if (0 != re_val) {
+            frequencyMajIndex += re_val;
+            if (frequencyMajIndex < 0) {
+                frequencyMajIndex = 0;
+            } else if (frequencyMajIndex >= FREQUENCY_TABLE_LENGTH) {
+                frequencyMajIndex = FREQUENCY_TABLE_LENGTH - 1;
+            }
+            frequency = frequencyMajTable[frequencyMajIndex];
+        } else {
+            frequency += readRE(1) * frequencyMnrStep[frequencyMajIndex];
+            if (frequency <= 0) frequency = 1;
+            else if ((uint32)frequency >= SAMPLE_CLOCK / 2) frequency = SAMPLE_CLOCK / 2;
+        }
+        setDDSParameter_0(frequency);
+        CyDelay(1);
     }
 }
 
