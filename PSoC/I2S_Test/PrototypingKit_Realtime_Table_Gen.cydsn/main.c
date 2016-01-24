@@ -99,16 +99,16 @@ void setBuffer_1()
 
 CY_ISR (dma_0_done_handler)
 {
-    Pin_Check_0_Write(1u);
+    //Pin_Check_0_Write(1u);
     setBuffer_0();
-    Pin_Check_0_Write(0u);
+    //Pin_Check_0_Write(0u);
 }
 
 CY_ISR (dma_1_done_handler)
 {
-    Pin_Check_1_Write(1u);
+    //Pin_Check_1_Write(1u);
     setBuffer_1();
-    Pin_Check_1_Write(0u);
+    //Pin_Check_1_Write(0u);
 }
 
 CY_ISR (i2s_1_tx_handler)
@@ -124,7 +124,7 @@ int main()
     
     tableIndex_0 = 0;
     tableIndex_1 = 0;
-    
+#if 0    
     genSineTable(waveTable_0, TABLE_LENGTH);
     genSawTable(waveTable_1, TABLE_LENGTH);
     
@@ -162,12 +162,17 @@ int main()
     CyDelay(1);
 
     I2S_1_EnableTx();
+#endif    
 
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
 
     for(;;)
     {
         /* Place your application code here. */
+        Pin_Check_0_Write(1u);
+        genSineTable(waveTable_0, TABLE_LENGTH);
+        Pin_Check_0_Write(0u);
+        CyDelay(1);
     }
 }
 
