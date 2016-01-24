@@ -12,7 +12,7 @@
 #include <project.h>
 #include <math.h>
 
-#define TABLE_LENGTH    1024
+#define TABLE_LENGTH    4096
 #define BUFFER_LENGTH   32
 
 /* Defines for DMA_0 */
@@ -44,31 +44,29 @@ volatile int tableIndex_1;
 volatile uint8 waveBuffer_0[BUFFER_LENGTH];
 volatile uint8 waveBuffer_1[BUFFER_LENGTH];
 
-/*
-void genSineTable()
+
+void genSineTable(volatile uint8 *table, int length)
 {
     int i;
-    int16 v_i16;
-    int8* p_i8;
+    int16 v;
+    int8* p8;
     
-    for (i = 0; i < TABLE_LENGTH; i++) {
-        v_i16 = (int16)(sin(2.0f * M_PI * i / TABLE_LENGTH) * INT16_MAX);
-        p_i8  = (int8 *)&v_i16;
-        sineTable8[i*2]   = *p_i8;
-        sineTable8[i*2+1] = *(p_i8 + 1);
+    for (i = 0; i < length / 2; i++) {
+        v = (int16)(sin(2.0f * M_PI * i * 2 / length) * 32767);
+        p8 = (int8 *)&v;
+        table[i*2]   = *(p8+1);
+        table[i*2+1] = *p8;
     }
 }
-*/
 
-void genSawTable(volatile uint8 *table)
+void genSawTable(volatile uint8 *table, int length)
 {
     int i;
     int16 v;
     uint8 *p8;
     
-    for (i = 0; i < TABLE_LENGTH / 2; i++) {
-        //v = i << 7;
-        v = -32767 + (int32)i * 0x10000 * 2 / TABLE_LENGTH;
+    for (i = 0; i < length / 2; i++) {
+        v = -32767 + (int32)i * 0x10000 * 2 / length;
         p8 = (uint8 *)&v;
         table[i*2]  = *(p8+1);
         table[i*2+1]= *p8;
@@ -99,22 +97,6 @@ void setBuffer_1()
     }
 }
 
-/*
-void genSawTable_1()
-{
-    int i;
-    int16 v;
-    uint8 *p8;
-    
-    for (i = 0; i < BUFFER_LENGTH; i++) {
-        v = (int32)i * UINT16_MAX / BUFFER_LENGTH;
-        p8 = (uint8 *)&v; 
-        waveBuffer_1[i*2]   = *(p8 + 1);
-        waveBuffer_1[i*2+1] = *p8;
-    }
-}
-*/
-
 CY_ISR (dma_0_done_handler)
 {
     Pin_Check_0_Write(1u);
@@ -138,16 +120,16 @@ CY_ISR (i2s_1_tx_handler)
 
 int main()
 {
+    CyGlobalIntEnable; /* Enable global interrupts. */
+    
     tableIndex_0 = 0;
     tableIndex_1 = 0;
     
-    genSawTable(waveTable_0);
-    genSawTable(waveTable_1);
+    genSineTable(waveTable_0, TABLE_LENGTH);
+    genSawTable(waveTable_1, TABLE_LENGTH);
     
     setBuffer_0();
     setBuffer_1();
-    
-    CyGlobalIntEnable; /* Enable global interrupts. */
     
     I2S_1_Start();
     
