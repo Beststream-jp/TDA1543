@@ -7,6 +7,7 @@
  * CONFIDENTIAL AND PROPRIETARY INFORMATION
  * WHICH IS THE PROPERTY OF your company.
  *
+ * 2016.01.27 サンプリングレートを48kHzに変更
  * 2016.01.24 ロータリーエンコーダーで周波数選択
  * 2016.01.22 正弦波を出力
  *
@@ -15,7 +16,7 @@
 #include <project.h>
 #include "wavetable.h"
 
-#define SAMPLE_CLOCK    279658u
+#define SAMPLE_CLOCK    48680u
 
 #define TABLE_SIZE      1024
 #define BUFFER_SIZE     4     
